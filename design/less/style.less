@@ -1,0 +1,144 @@
+.upline-timeline-drawer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.upline-filter-button {
+  padding: 15px 10px;
+}
+
+.upline-filter-button .upline-button {
+  font-size: 14px;
+  cursor: pointer;
+  color: #0696d7;
+}
+
+.upline-filter-button .upline-button:hover {
+  color: #21adee;
+}
+
+.upline-cut-off-rule {
+  background: #f2f2f2;
+  cursor: col-resize;
+  width: 4px;
+  flex-shrink: 0;
+}
+
+.upline-pull-tab {
+  width: 100%;
+  flex: 1 1;
+  min-width: 600px;
+}
+
+.upline-scroll-bar {
+  height: 32px;
+  display: flex;
+  margin: 18px 28px 18px 28px;
+}
+
+.upline-scroll-button {
+  width: 16px;
+  height: 16px;
+  background-color: #aaa;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.upline-scroll-button img {
+  width: 14px;
+  height: 14px;
+}
+
+.upline-slider {
+  position: relative;
+  height: 12px;
+  background-color: #f5f8fb;
+  margin: 2px 8px;
+  flex: 1 1 auto;
+  display: flex;
+  .line {
+    width: 4px;
+    height: 8px;
+    background-color: white;
+    border-radius: 2px;
+  }
+}
+
+.upline-grip {
+  background-color: #86909c;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+}
+
+.upline-clickable:hover {
+  background-color: rgb(102, 102, 102);
+}
+
+.upline-left-drag {
+  height: 12px;
+  position: absolute;
+  top: 0px;
+  margin-left: -8px;
+  background-color: #86909c;
+  z-index: 2;
+}
+
+.upline-right-drag {
+  height: 12px;
+  position: absolute;
+  top: 0px;
+  margin-left: -8px;
+  background-color: #86909c;
+  z-index: 2;
+}
+
+.upline-left-drag-time {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  margin-left: -60px;
+  font-size: 12px;
+  color: #888888;
+}
+
+.upline-right-drag-time {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  margin-left: -4px;
+  font-size: 12px;
+  color: #888888;
+}
+
+.upline-timeline-canvas {
+  position: relative;
+  display: flex;
+  border: 2px solid var(--color-border-3);
+  border-radius: 4px;
+}
+.upline-event:hover {
+  border: 2px solid rgb(102, 102, 102);
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+.upline-go-left {
+  margin-right: 2px;
+  background-color: #f5f8fb;
+}
+.upline-go-left:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.upline-go-right {
+  margin-left: 2px;
+  background-color: #f5f8fb;
+}
+.upline-go-right:hover {
+  background-color: rgb(220, 220, 220);
+}
